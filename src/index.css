@@ -25,8 +25,11 @@ code {
   display: block;
   width: auto;
   height: 702px;
+  /* background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0, 0, 0, 0)),url(images/homeBackground.jpeg); */
   background-image: url(images/homeBackground.jpeg);
   background-repeat: no-repeat;
+  
+
   /* background-attachment: fixed; */
   background-size: cover;
   text-align: center;
@@ -92,10 +95,149 @@ code {
   
 }
 
-
 .navFix {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
+.contactUs {
+  /* display: block; */
+  /* background-color: blue; */
+  /* margin-top: 20px; */
+  padding: 50px 30px;
+  /* position: relative; */
+  /* align-content: center; */
+  height: auto;
+  width: 100%;
+  /* float: left; */
+}
+.contactForm{
+  display: block;
+  /* min-width: 40%; */
+  width: 50%;
+  height: auto;
+  margin: 0px 35px;
+  padding: 50px 10px;
+  /* background-color: aqua; */
+  /* position: relative; */
+  float: left;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
+}
+.mapSpace {
+  display: block;
+  /* min-width: 70%; */
+  /* width:360px ; */
+  /* max-width: 100%; */
+  width: 45%;
+  height: 360px;
+  /* background-color: brown; */
+   
+  margin-top: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 4px;
+  /* position: relative; */
+  float: left;
+
+}
+.contactText{
+  display: flex;
+  /* background-color: cornflowerblue; */
+  width: 100%;
+  height: auto;
+  float: left;
+  /* padding: 0px 0px 0px 5%; */
+  text-align: center;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactBox{
+  display: block;
+  width:100%;
+  background-color:lightgray;
+  float: left;
+  height: auto; 
+  padding: 10px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  text-align:start;
+  border-right: 1px solid black;
+}
+.contactBox img{
+  margin: 20px 20px 20px 20px;
+  float: left;
+}
+.contactBox p,a,address{
+  text-decoration: none;
+  color: #f1356d;
+}
+.contactBox a:hover{
+  text-decoration: none;
+  color: #f1356d;
+}
+
+
+
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 420px) {
+  .contactUs, .mapSpace, .contactForm, .create{
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    margin: 0px 0px 20px 0px;
+    
+  }
+}
+@media screen and (max-width: 1500px) {
+  .contactUs, .mapSpace, .contactForm, .create {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    margin: 0px auto 20px auto;
+    
+  }
+}
+@media screen and (max-width: 900px) {
+  .contactText{
+    display: block;
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .contactBox{
+    border-right: 0px solid black;
+  }
+}
