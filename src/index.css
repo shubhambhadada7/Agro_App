@@ -165,7 +165,7 @@ code {
   padding: 10px;
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
   text-align:start;
-  border-right: 1px solid black;
+  border-right: 1px solid solid black;
 }
 .contactBox img{
   margin: 20px 20px 20px 20px;
@@ -201,7 +201,7 @@ code {
   width: 100%;
   padding: 6px 10px;
   margin: 10px 0;
-  border: 1px solid #ddd;
+  border: 1px solid solid #ddd;
   box-sizing: border-box;
   display: block;
 }
@@ -213,6 +213,116 @@ code {
   border-radius: 8px;
   cursor: pointer;
 }
+
+.outerKB{
+  max-width: 700px;
+  height: auto;
+  /* background-color: gray; */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+.eachKB{
+  display: block;
+  width: 100%;
+  height: fit-content;
+  /* background-color: lavender; */
+  margin-bottom: 20px;
+}
+.profileImage{
+  width: 15%;
+  /* background-color: white; */
+  display: block;
+  float: left;
+}
+.profileImage img{
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: black 1px solid;
+}
+.authorKB {
+  display: block;
+  float: left;
+  width:85%;
+  text-align: left;
+  padding: 10px;
+  /* background-color: lightcoral; */
+}
+.authorKB p{
+  font-weight: bold;
+}
+.authorKB span{
+  font-weight: lighter;
+}
+
+.tagKB {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  /* background-color: lightgreen; */
+  padding: 20px;
+}
+.tagKB div {
+  width: fit-content;
+  height: 30px;
+  padding: 5px;
+  /* background-color: white; */
+  border-radius: 3px;
+  border: black 1px solid;
+  margin: 5px; 
+}
+
+.issueImage {
+  width: 100%;
+  height: 400px;
+  padding: 5px;
+  /* background-color: blue; */
+}
+.issueImage img{
+  
+  width: 100%;
+  height: 100%;
+  border: black 1px solid;
+}
+.titleKB{
+  padding: 5px;
+  margin-top: 5px;
+  width: 100%;
+  height: auto;
+  text-align: left;
+  font-weight: bold;
+}
+.detailKB{
+  padding: 5px;
+  width: 100%;
+  height: 50px;
+  text-align: left;
+  /* text-overflow: ellipsis; */
+  overflow: hidden;
+  /* white-space: nowrap; */
+  /* background-color: blue; */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.utilityKB{
+  width: 100%;
+  display: flex;
+  padding: 5px;
+}
+.utilityKB div{
+  width: 25%;
+}
+.DetailedText{
+  padding: 5px;
+  width: 100%;
+  height: auto;
+  text-align: left;
+}
+
+
 
 
 @media screen and (max-width: 420px) {
