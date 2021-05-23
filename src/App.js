@@ -5,6 +5,9 @@ import Home from './Home'
 import KrishiCharcha from './KrishiCharcha'
 import ContactUs from './ContactUs'
 import KCBlogDetails from './KCBlogDetails'
+import Blogs from './Blogs'
+import Services from './Services'
+
 import Footer from './components/Footer'
 import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -32,12 +35,19 @@ function App() {
             <Route exact  path="/ContactUs">
               <ContactUs/>
             </Route>
+            <Route exact  path="/Services">
+              <Services/>
+            </Route>
+            <Route exact  path="/Blogs">
+              <Blogs/>
+            </Route>
             <Route exact  path="/KrishiCharcha">
               <KrishiCharcha/>
             </Route>
             <Route exact path="/KrishiCharcha/:id">
               <KCBlogDetails/>
             </Route>
+            
             {/* <Route path="*">
               <NotFound/>
             </Route> */}
