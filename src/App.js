@@ -1,14 +1,14 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header'
 import Home from './Home'
 import KrishiCharcha from './KrishiCharcha'
 import ContactUs from './ContactUs'
 import KCBlogDetails from './KCBlogDetails'
+import NewBlog from './NewBlog'
 import Blogs from './Blogs'
 import Services from './Services'
-
-import Footer from './components/Footer'
+// import Footer from './components/Footer'
 import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -47,7 +47,9 @@ function App() {
             <Route exact path="/KrishiCharcha/:id">
               <KCBlogDetails/>
             </Route>
-            
+            <Route exact path="/NewBlog">
+              <NewBlog/>
+            </Route>
             {/* <Route path="*">
               <NotFound/>
             </Route> */}

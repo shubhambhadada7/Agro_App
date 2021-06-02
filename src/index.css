@@ -215,7 +215,7 @@ code {
 }
 
 .outerKB{
-  max-width: 700px;
+  max-width: 1000px;
   height: auto;
   /* background-color: gray; */
   margin-left: auto;
@@ -322,8 +322,32 @@ code {
   text-align: left;
 }
 
+/* For new blog */
+
+.navNewBlog{
+  width: 100%;
+  align-content: center;
+  
+}
+.navNewBlog button{
+  width: fit-content;
+  margin: 20px;
+}
+
+.imagePreview {
+  max-width: 500px;
+  height: 500px;
+  background-color:#f1356d;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: auto;
+
+}
 
 
+
+/* For new blog : End */
 
 @media screen and (max-width: 420px) {
   .contactUs, .mapSpace, .contactForm, .create{

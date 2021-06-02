@@ -19,7 +19,7 @@ const KCList = (props) => {
         setPagination({ start: start, end: end });
     };
 
-    return ( 
+    return (                
         <div className="outerKB">
             {KCBlogs.slice(pagination.start, pagination.end).map((eachKCBlog) => (
                 <EachKC eachKC = {eachKCBlog}/>
