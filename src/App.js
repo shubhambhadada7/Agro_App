@@ -8,6 +8,8 @@ import KCBlogDetails from './KCBlogDetails'
 import NewBlog from './NewBlog'
 import Blogs from './Blogs'
 import Services from './Services'
+import Shop from './Shop'
+import ProductDetails from './ProductDetails'
 // import Footer from './components/Footer'
 import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -31,6 +33,12 @@ function App() {
           <Switch>
             <Route exact  path="/">
               <Home/>
+            </Route>
+            <Route exact path="/Shop">
+              <Shop/>
+            </Route>
+            <Route exact path="/product">
+              <ProductDetails/>
             </Route>
             <Route exact  path="/ContactUs">
               <ContactUs/>

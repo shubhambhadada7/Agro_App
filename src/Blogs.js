@@ -10,10 +10,10 @@ const Blogs = () => {
 
             <div className="Major" >
                 <div className="f">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-google"></a>
-                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="#" class="faBlog fa fa-facebook"></a>
+                    <a href="#" class="faBlog fa fa-twitter"></a>
+                    <a href="#" class="faBlog fa fa-google"></a>
+                    <a href="#" class="faBlog fa fa-linkedin"></a>
 
                 </div>
                 <div className="s">

@@ -29,7 +29,7 @@
    
 }
 
-.fa {
+.faBlog {
 
     padding: 28px;
     font-size: 15px;
@@ -43,7 +43,7 @@
     
 }
 
-.fa:hover {
+.faBLog:hover {
     opacity: 0.7;
 }
 
